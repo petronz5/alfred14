@@ -1,0 +1,70 @@
+/* styles.css */
+
+/* Imposta un carattere di base e uno stile di layout */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+/* Stile per il pulsante */
+button {
+    margin-top: 10px;
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Cambia il colore al passaggio del mouse */
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Stile per l'input di testo */
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Stile per il messaggio di risposta */
+#response {
+    margin-top: 20px;
+    font-size: 18px;
+    color: #333;
+}
+
+/* Stile per il titolo */
+h1 {
+    font-size: 24px;
+    color: #007bff;
+}
+
+
+/* Stile per il riquadro di data e ora */
+#datetime-box {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #f5f5f5;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+#datetime-box p {
+    margin: 5px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
