@@ -1,2 +1,6 @@
 Flask
 SpeechRecognition
+pyaudio
+setuptools
+psutil
+python-docx
